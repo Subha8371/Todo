@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.tod{
+  background: rgb(0,12,42);
+  background: linear-gradient(90deg, rgba(0,12,42,0.9921218487394958) 0%, rgba(0,212,255,0.8408613445378151) 100%);
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  border-style:groove;
+  border-radius: 5px;
+  border-color: black;
+  /* box-shadow: 10px 15px 5px 0px; */
+}
+.tod-input{
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background: #720e9e;
+  height: 1000px;
+  width:auto;
 }
+
+.list_item{
+  margin-top: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.list{
+  background-color: #FFD700;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  border-style: dashed;
+  border-style:groove;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 10px 15px 5px 0px;
+}
+
+.deletebutton{
+  margin-left: 15px;
+  border-radius: 5px;
+  
+  background-color: #f4511e;
+  color: white;
+  padding: 3px 6px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  
+}
+
+.deletebutton:hover {opacity: 1}
